@@ -1,5 +1,8 @@
 Quiz1::Application.routes.draw do
-  root 'static#index'
+ # root 'static#index'
+   root 'questions#index'
+   resources :questions
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
